@@ -35,13 +35,13 @@ Você pode definir uma senha de administração mais forte dentro do site, acess
 
 Para um configuração avançada, é preciso conhecer alguns elementos da configuração do roteador...
 
-### Elementos
+### Elementos da Configuração
 
 ![image](https://github.com/user-attachments/assets/d8b8c27c-3ae5-4a58-ab01-29fe056674e3)
 
 Há diversas opções de configuração, mas somente as mais importantes serão listadas:
 
-#### Status
+### Status
 
 O *Status* é o painel onde conseguimos identificar o provedor da *Internet*, as especificações do *Wireless* e do sistema *LAN*, além dos *Clientes* conectados ao roteador, mostrando diversos detalhes, como: MAC, IP, SubMáscara, Nome da Rede, etc...
 O *Status* tem como objetivo nos dar as informações avançadas e essenciais do roteador e suas conexões.
@@ -53,7 +53,7 @@ Nesse modelo, temos 4 opções, conforme a imagem:
 
 ![image](https://github.com/user-attachments/assets/eb467ac0-19d1-4873-a444-fdb47cc8f695)
 
-#### Rede
+### Rede
 
 Na *Rede* temos 5 módulos:
 
@@ -77,7 +77,7 @@ No módulo *Configurações de LAN*, nos é apresentado o *Servidor DHCP*, que a
 
 ![image](https://github.com/user-attachments/assets/e350721d-8887-4b79-a01f-ab0e00c746aa)
 
-#### Wireless (*Sem fio*)
+### Wireless (*Sem fio*)
 
 No *Wireless* temos mais 5 módulos:
 
@@ -97,6 +97,23 @@ Sendo as principais: _**Configurações Wireless**_, _**WPS**_ (_Wi-Fi Protected
 
 ![image](https://github.com/user-attachments/assets/cdc9f450-2b0c-44e9-9e8e-e596708f72f7)
 
-#### Controle de Largura de Banda
+### Controle de Largura de Banda
 
-#### Ferramentas do Sistema
+Nesta opção de configuração, podemos controlar a velocidade da largura de banda para _uploads_ e _downloads_, sendo manualmente ou impondo regras para a atualização das veloicdades automaticamente; precisando somente habilitar a caixinha _"Habilitar"_.
+
+![image](https://github.com/user-attachments/assets/818fbad9-c4a9-4c3f-a491-7f628db1c614)
+![image](https://github.com/user-attachments/assets/1786cc1e-c081-4e6e-90d5-b7540a800bde)
+
+### Ferramentas do Sistema
+
+Dentro das _Ferramentas do Sistema_, temos diversas opções, todas bem intuitivas sobre o que cada uma consegue configurar:
+
+![image](https://github.com/user-attachments/assets/528f5a5d-f2f5-4cff-9ad6-d5aa1965a4b0)
+
+- Configurações de Tempo: Configura o fuso-horário do seu sistema, podendo sincronizar os relógios com outros _IP's_, através do protocolo _NTP_. Além de configurar o fuso com o horário de verão também.
+- Diagnóstico: Ele testa a funcionalidade e a velocidade da sua Internet com seu roteador. Ótimo para a configuração e detecção de problemas de instabilidade.
+- Atualização de Firmware: É possível observar as informações do roteador e autualizar o firmware como preferir.
+- Backup e Restauração: Consegue salvar as configurações do seu roteador ou restaurar configurações de um arquivo da nuvem de um roteador anterior.
+- Reínicio: Reinicia seu roteador as configurações de fábrica.
+- Administração: Gerencia e testa _IP's_ conectados no roteador, o próprio roteador e habilita o gerenciamento remoto por outras máquinas.
+- Monitor de Tráfego: Habilita um monitor para ficar responsável pelo tráfego de _IP's_.
